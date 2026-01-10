@@ -22,7 +22,7 @@ on:
           - IPQ807X-WIFI-NO
           - TEST
       SOURCE:
-        default: 'VIKINGYFY/immortalwrt'
+        default: 'hibccr/immortalwrt-qcom'
         required: true
         type: choice
         options:
@@ -30,6 +30,7 @@ on:
           - immortalwrt/immortalwrt
           - LiBwrt/openwrt-6.x
           - qosmio/openwrt-ipq
+          - hibccr/immortalwrt-qcom
       BRANCH:
         default: 'main'
         required: true
